@@ -19,7 +19,7 @@ hold('on');
 plot(appdata.strat_x,appdata.strat_y_norm,'k-','LineWidth',2);
 line([0 0], [0 1], 'Color','r','linestyle','--');
 line([1 1], [0 1], 'Color','r','linestyle','--');
-xlim([-2 1.5]);
+xlim([-2 2]);
 xlabel('IPL depth (normalized)')
 ylabel('Dendrite density (normalized)')
 hold('off');
